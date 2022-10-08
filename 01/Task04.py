@@ -9,3 +9,14 @@ y2 = int(input('Введите Y второй точки: '))
 
 result = ((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2)) ** 0.5
 print(round(result, 2))
+
+# import math
+
+# x1 = int(input('Введите X первой точки: '))
+# y1 = int(input('Введите Y первой точки: '))
+# x2 = int(input('Введите X второй точки: '))
+# y2 = int(input('Введите Y второй точки: '))
+#
+#
+# distance = math.sqrt((x1 - x2) **2 + (y1 - y2) **2)
+# print(round(distance, 2))

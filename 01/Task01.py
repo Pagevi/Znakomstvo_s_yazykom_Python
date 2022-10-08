@@ -2,7 +2,7 @@
 
 number = int(input('Введите цифру дня недели: '))
 
-if number > 7:
+if number > 7 or number < 1:
     print(number, '- такого дня недели не существует')
 elif number == 6 or number == 7:
     print(number, '- это выходной день')
